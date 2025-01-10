@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Art Gallery</h1>
+    <div class="container">
+      <div class="art">
+        <div class="layer">
+          <div class="dimg">
+            <img
+              src="./images/coffee-2.jpg"
+              class="simg"
+              onclick="show('coffee-2')"
+            />
+          </div>
+          <div class="dimg">
+            <img
+              src="./images/coffee-3.jpg"
+              class="simg"
+              onclick="show('coffee-3')"
+            />
+          </div>
+          <div class="dimg">
+            <img
+              src="./images/drink-1.jpg"
+              class="simg"
+              onclick="show('drink-1')"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <button id="btn" onclick="hide()">X</button>
+        <img src="./images/coffee-1.jpg" class="mimg" />
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequunturs
+          quas eaque amet distinctio, maiores, eum ipsa error dolorum minima
+          adipisci in ipsum magni iure assumenda necessitatibus magnam nulla
+          laboriosam nihil.
+        </p>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
